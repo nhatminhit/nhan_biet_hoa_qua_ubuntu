@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Node / Web Frontend
+node_modules/
+web/node_modules/
+web/dist/
+web/.vite/
+web/.vite-temp/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime outputs, logs & local session data
+output/
+*.log
+exhibition_session.json
+camera_calibration.json
+
+# Large demo videos (bỏ ghi chú các dòng dưới nếu cũng muốn bỏ qua tất cả video/model)
+video demo/
+# *.mp4
+# *.pt
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
